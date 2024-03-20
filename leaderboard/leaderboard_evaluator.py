@@ -219,7 +219,7 @@ class LeaderboardEvaluator(object):
         else:
             self.world.wait_for_tick()
 
-        if CarlaDataProvider.get_map().name != town:
+        if town not in CarlaDataProvider.get_map().name:
             raise Exception("The CARLA server uses the wrong map!"
                             "This scenario requires to use map {}".format(town))
 
