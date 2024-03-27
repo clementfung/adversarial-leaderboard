@@ -5,7 +5,7 @@ def stream_patch(world):
 
     # define adversarial image path
     adv_image_path_base = 'leaderboard/leaderboard/patches/'
-    adv_image_name = 'stripe_patch.png'
+    adv_image_name = 'color_patch.png'
     adv_image_path = adv_image_path_base + adv_image_name
 
     # define road regions

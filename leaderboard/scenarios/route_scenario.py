@@ -195,7 +195,7 @@ class RouteScenario(BasicScenario):
                                                              self.sampled_scenarios_definitions,
                                                              scenarios_per_tick=10,
                                                              timeout=self.timeout,
-                                                             debug_mode=debug_mode>1)
+                                                             debug_mode=True)
 
         super(RouteScenario, self).__init__(name=config.name,
                                             ego_vehicles=[ego_vehicle],
